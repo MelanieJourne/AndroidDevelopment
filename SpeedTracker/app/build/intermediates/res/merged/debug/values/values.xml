@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/AndroidStudio/SpeedTracker/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#FFFFFF</color>
+    <!-- From: file:/C:/AndroidStudio/SpeedTracker/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">SpeedTracker</string>
+    <string name="current_average">Current Average speed : </string>
+    <string name="current_time">Current time is : </string>
+    <string name="gps_disable">GPS is disable, please enable it.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="overall_average">Overall Average speed : </string>
+    <string name="speed">Speed : </string>
+    <string name="start_tracking">Start Tracking!</string>
+    <string name="stop_tracking">Stop Tracking!</string>
+    <!-- From: file:/C:/AndroidStudio/SpeedTracker/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

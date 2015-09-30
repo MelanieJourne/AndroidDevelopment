@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<com.example.speedtracker.TraceView
+	    android:id="@+id/traceview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_above="@+id/tv_time" />
+
+	<Button
+	    android:id="@+id/b_track"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/start_tracking" />
+
+	<TextView
+	    android:id="@+id/tv_overall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/b_track"
+	    android:layout_alignParentStart="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="10dp"
+	    android:text="@string/overall_average" />
+	
+	<TextView
+	    android:id="@+id/tv_current"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/tv_overall"
+	    android:layout_alignParentStart="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="10dp"
+	    android:text="@string/current_average" />
+		
+	<TextView
+	    android:id="@+id/tv_speed"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/tv_current"
+	    android:layout_alignParentStart="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="10dp"
+	    android:text="@string/speed" />
+	
+	<TextView
+	    android:id="@+id/tv_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/tv_speed"
+	    android:layout_alignParentStart="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="10dp"
+	    android:text="@string/current_time" />
+		
+		
+
+</RelativeLayout>
+<!-- From: file:/C:/AndroidStudio/SpeedTracker/app/src/main/res/layout/activity_main.xml -->
